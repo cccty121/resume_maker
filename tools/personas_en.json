@@ -2,7 +2,7 @@
   "eng": {
     "title": "Machine Vision Engineer",
     "eyebrow": "Machine Vision · Surface Defect Inspection · Inline Deployment",
-    "role": "Three years in industrial surface defect inspection, from illumination design to production rollout. I split \"we cannot detect it\" into imaging, labelling and modelling, then close each one until the chain runs inside the line cycle time.",
+    "role": "Three years in industrial surface defect inspection, covering illumination design through production deployment. The method is to attribute detection failures to imaging, labelling or modelling and address each in turn, until the chain meets line cycle time.",
     "summary_facts": [
       [
         "Focus",
@@ -71,7 +71,7 @@
   "sci": {
     "title": "Data Analyst",
     "eyebrow": "Applied Statistics · Experiment Design · Metrics",
-    "role": "Three years in analytics, most of it spent on one question: did this number go up because of the strategy, or because the market moved. The tools are experiment design and causal inference; in practice that means metric definitions, traffic validation and incremental evaluation.",
+    "role": "Three years in analytics, most of it on attribution: whether a lift came from the strategy or from concurrent market movement. Methods are experiment design and causal inference; delivery covers metric definitions, traffic validation and incremental estimation.",
     "summary_facts": [
       [
         "Focus",
@@ -140,7 +140,7 @@
   "arts": {
     "title": "Content Operations",
     "eyebrow": "Content Operations · Brand Copy · Building Accounts from Zero",
-    "role": "Three years in content operations, from editorial calendars to post-campaign reviews. I try to turn products nobody cares about into stories people finish, and when a topic fails I say so in the review instead of blaming the headline.",
+    "role": "Three years in content operations, covering editorial planning through post-campaign review. Most of the work is content expression for low-attention products, and attributing shortfalls to topic or headline separately rather than to writing quality overall.",
     "summary_facts": [
       [
         "Focus",
@@ -209,7 +209,7 @@
   "soc": {
     "title": "User Researcher",
     "eyebrow": "User Research · Qualitative Interviews · Policy Evaluation",
-    "role": "Three years in research, interviewing first and quantifying second. I have done zero-to-one product research and third-party evaluation of public services; the method is the same in both. Get people to say something true, then turn it into a decision.",
+    "role": "Three years in user research, usually beginning with qualitative interviews to bound the question before deciding whether quantification is needed. Projects span zero-to-one product research and third-party evaluation of public services; both share one frame: controlling the reliability of what respondents report, and converting qualitative material into conclusions a team can act on.",
     "summary_facts": [
       [
         "Focus",
