@@ -1,0 +1,278 @@
+{
+  "eng": {
+    "title": "Machine Vision Engineer",
+    "eyebrow": "Machine Vision · Surface Defect Inspection · Inline Deployment",
+    "role": "Three years in industrial surface defect inspection, from illumination design to production rollout. I split \"we cannot detect it\" into imaging, labelling and modelling, then close each one until the chain runs inside the line cycle time.",
+    "summary_facts": [
+      [
+        "Focus",
+        "Industrial surface defect inspection"
+      ],
+      [
+        "Current",
+        "Hengyuan Energy · Senior Vision Engineer"
+      ],
+      [
+        "Degree",
+        "MSc, class of 2023"
+      ],
+      [
+        "Base",
+        "Shanghai"
+      ]
+    ],
+    "experience": [
+      {
+        "title": "Senior Machine Vision Engineer",
+        "org": "Hengyuan Energy Technology",
+        "date": "2025.04 – Present",
+        "bullets": [
+          "Own inline inspection for electrode coating and welding: 0.15 mm smallest detectable defect, 0.3% miss rate, 60 m/min line speed.",
+          "Raised defect-to-background contrast from 4 to 21 grey levels through camera and illumination selection."
+        ]
+      },
+      {
+        "title": "Machine Vision Engineer",
+        "org": "Weixin Semiconductor Equipment",
+        "date": "2023.03 – 2025.03",
+        "bullets": [
+          "Shipped an inline wafer defect system covering 8 defect classes at 98.6% accuracy, cutting false calls from 3.1% to 0.8%.",
+          "Quantised with TensorRT to 18 ms per image on Jetson AGX Orin, replacing a manual re-inspection station."
+        ]
+      }
+    ],
+    "education": [
+      [
+        "Shanghai Jiao Tong University",
+        "MSc, Control Science and Engineering",
+        "2020.09 – 2023.03"
+      ],
+      [
+        "Dalian University of Technology",
+        "BEng, Mechanical Engineering",
+        "2016.09 – 2020.06"
+      ]
+    ],
+    "skills": [
+      [
+        "Imaging",
+        "Bright-field, dark-field and coaxial illumination; line-scan and area camera calibration; sub-pixel edge extraction."
+      ],
+      [
+        "Modelling",
+        "Anomaly detection (PatchCore family), few-shot classification, segmentation; long-tail handling; synthetic defects."
+      ],
+      [
+        "Deployment",
+        "PyTorch → ONNX → TensorRT, Jetson edge deployment, C++ inference wrapping, cycle-time alignment."
+      ]
+    ]
+  },
+  "sci": {
+    "title": "Data Analyst",
+    "eyebrow": "Applied Statistics · Experiment Design · Metrics",
+    "role": "Three years in analytics, mostly on one question: how to prove a strategy caused the lift instead of claiming credit for natural growth. I work with experiment design and causal inference, and land everything on metric definitions, traffic validation and incremental evaluation.",
+    "summary_facts": [
+      [
+        "Focus",
+        "Experiment design and causal inference"
+      ],
+      [
+        "Current",
+        "Yunji Commerce · Senior Data Analyst"
+      ],
+      [
+        "Degree",
+        "MSc, class of 2023"
+      ],
+      [
+        "Base",
+        "Hangzhou"
+      ]
+    ],
+    "experience": [
+      {
+        "title": "Senior Data Analyst",
+        "org": "Yunji Commerce",
+        "date": "2024.04 – Present",
+        "bullets": [
+          "Evaluated campaign and ranking-slot effects with difference-in-differences, isolating a 3.2% true lift and retiring two negative placements for about 2.4M CNY in quarterly savings.",
+          "Consolidated 47 competing metric definitions into 12 core metrics plus a data dictionary, cutting ad-hoc data requests by 60%."
+        ]
+      },
+      {
+        "title": "Data Analyst",
+        "org": "Chengshu Consulting",
+        "date": "2023.07 – 2024.03",
+        "bullets": [
+          "Built operating dashboards for six consumer clients and three reusable analysis templates, shortening delivery from three weeks to nine days.",
+          "Ran a quasi-experiment on store siting with propensity-score matching; the result informed site review for 14 new stores."
+        ]
+      }
+    ],
+    "education": [
+      [
+        "Renmin University of China",
+        "MSc, Applied Statistics",
+        "2020.09 – 2023.06"
+      ],
+      [
+        "Sun Yat-sen University",
+        "BSc, Mathematics and Applied Mathematics",
+        "2016.09 – 2020.06"
+      ]
+    ],
+    "skills": [
+      [
+        "Data",
+        "SQL (window functions, complex joins), Python (pandas, numpy), R; cleaning tens of millions of rows."
+      ],
+      [
+        "Experiments",
+        "A/B design, power calculation, traffic validation; DID, PSM and regression discontinuity, with their assumptions."
+      ],
+      [
+        "Communication",
+        "Tableau and Power BI dashboards; written reports that end in a decision, not a chart dump."
+      ]
+    ]
+  },
+  "arts": {
+    "title": "Content Operations",
+    "eyebrow": "Content Operations · Brand Copy · Building Accounts from Zero",
+    "role": "Three years in content operations, from editorial calendars to post-campaign reviews. I turn products nobody cares about into stories people finish, and I admit when a topic was the problem rather than the headline.",
+    "summary_facts": [
+      [
+        "Focus",
+        "Consumer brand content and account growth"
+      ],
+      [
+        "Current",
+        "Qingye Foods · Content Lead"
+      ],
+      [
+        "Degree",
+        "MA, class of 2023"
+      ],
+      [
+        "Base",
+        "Shanghai"
+      ]
+    ],
+    "experience": [
+      {
+        "title": "Content Lead",
+        "org": "Qingye Foods",
+        "date": "2024.05 – Present",
+        "bullets": [
+          "Ran the brand's WeChat account and Xiaohongshu in parallel: 86 long-form posts in a year, 120k followers from zero, 8.4% open rate against a 2.1% category average, three posts past 100k reads.",
+          "Grew Xiaohongshu from zero to 32k followers across 210 notes, with roughly 180 inbound messages a month, about a third moving into the sales channel."
+        ]
+      },
+      {
+        "title": "Content Planner",
+        "org": "Shiguang Culture (MCN)",
+        "date": "2023.07 – 2024.04",
+        "bullets": [
+          "Wrote scripts for three lifestyle accounts; the best-performing video reached 4.8M views and added 76k followers.",
+          "Standardised the script template and shot list, cutting onboarding from two weeks to four days."
+        ]
+      }
+    ],
+    "education": [
+      [
+        "Fudan University",
+        "MA, Journalism and Communication",
+        "2020.09 – 2023.06"
+      ],
+      [
+        "Wuhan University",
+        "BA, Chinese Language and Literature",
+        "2016.09 – 2020.06"
+      ]
+    ],
+    "skills": [
+      [
+        "Editorial",
+        "Topic sourcing from audience and usage scenarios, column planning, balancing trending and evergreen content."
+      ],
+      [
+        "Writing",
+        "Long-form, product copy and video scripts; switching register between brand, creator and ordinary-user voice."
+      ],
+      [
+        "Review",
+        "Attributing open rate, completion and conversion; changing a topic when the data says so."
+      ]
+    ]
+  },
+  "soc": {
+    "title": "User Researcher",
+    "eyebrow": "User Research · Qualitative Interviews · Policy Evaluation",
+    "role": "Three years in research, interviewing first and quantifying second. I have done zero-to-one product research and third-party evaluation of public services; the method is the same in both. Get people to say something true, then turn it into a decision.",
+    "summary_facts": [
+      [
+        "Focus",
+        "Qualitative research and policy evaluation"
+      ],
+      [
+        "Current",
+        "Qingshan Institute · User Researcher"
+      ],
+      [
+        "Degree",
+        "MA, class of 2023"
+      ],
+      [
+        "Base",
+        "Beijing"
+      ]
+    ],
+    "experience": [
+      {
+        "title": "User Researcher",
+        "org": "Qingshan Institute",
+        "date": "2024.06 – Present",
+        "bullets": [
+          "Led research across consumer and public-service lines: 280+ in-depth interviews and a 12,000-response survey design.",
+          "Standardised the qualitative coding process with dual coding and disagreement review, cutting the report cycle from six weeks to four."
+        ]
+      },
+      {
+        "title": "Research Assistant",
+        "org": "Mingli Consulting",
+        "date": "2023.07 – 2024.05",
+        "bullets": [
+          "Contributed to a municipal elderly-care evaluation: 214 interviews and 3,600 valid questionnaires; the findings were adopted into next year's budget adjustment.",
+          "Compared policy documents across five cities on subsidy rules, supporting a pilot-eligibility application."
+        ]
+      }
+    ],
+    "education": [
+      [
+        "Peking University",
+        "MA, Sociology",
+        "2020.09 – 2023.06"
+      ],
+      [
+        "Nanjing University",
+        "BA, Sociology",
+        "2016.09 – 2020.06"
+      ]
+    ],
+    "skills": [
+      [
+        "Qualitative",
+        "In-depth interviews, focus groups, observation; sampling and saturation; non-leading question design."
+      ],
+      [
+        "Quantitative",
+        "Questionnaire design and validity checks, sampling and weighting; SPSS and Stata; NVivo coding."
+      ],
+      [
+        "Reporting",
+        "Turning 80,000 words of field notes into 20 pages of conclusions, and stating uncertainty out loud."
+      ]
+    ]
+  }
+}
