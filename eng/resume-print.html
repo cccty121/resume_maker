@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="robots" content="noindex, nofollow">
+<title>林嘉禾 · 简历</title><style>
+  @page { size: A4; margin: 9.5mm 13mm 6mm; }
+  *{box-sizing:border-box}
+  body{margin:0;color:#1a1d23;font-family:"Source Han Sans SC","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+    font-size:9.3pt;line-height:1.4;-webkit-font-smoothing:antialiased}
+  h1{font-size:20.5pt;margin:0;letter-spacing:.01em}
+  h2{font-size:10.8pt;margin:10.5pt 0 4.5pt;padding-bottom:2.4pt;border-bottom:1.3px solid #1b4b8f;color:#14356a}
+  ul{margin:2.4pt 0 0;padding-left:11.5pt}
+  li{margin:1.6pt 0}
+  strong{font-weight:700;color:#14356a}
+  header{border-bottom:2px solid #1b4b8f;padding-bottom:6pt;margin-bottom:1pt}
+  .hdr{display:flex;justify-content:space-between;align-items:flex-start;gap:10pt}
+  .hdr__text{flex:1;min-width:0}
+  .tagline{margin:3.5pt 0 4pt;color:#334;font-size:9.5pt}
+  .contact{display:flex;flex-wrap:wrap;gap:9pt;font-size:8pt;color:#444}
+  .hdr__side{display:flex;align-items:flex-start;gap:7pt;flex:none}
+  .hdr__qr{margin:0;display:flex;flex-direction:column;align-items:center;gap:2pt}
+  .hdr__qr img{width:15mm;height:15mm;display:block}
+  .hdr__qr figcaption{font-size:5.6pt;color:#6b7280;white-space:nowrap}
+  .hdr__photo{width:15.5mm;height:20.5mm;object-fit:cover;object-position:50% 30%;
+    border-radius:2pt;border:1px solid #e2e6ee;flex:none;margin-top:1pt}
+  .item{margin-bottom:5.5pt}
+  .row{display:flex;justify-content:space-between;align-items:baseline;gap:8pt}
+  .org{font-weight:700;font-size:9.7pt}
+  .role{color:#415;font-size:8.7pt;margin-left:6pt}
+  .date{color:#6b7280;font-size:8pt;white-space:nowrap}
+  .meta{margin:1.5pt 0 0;color:#333}
+  .skills{list-style:none;padding:0;margin:0}
+  .skills li{margin:1.6pt 0}
+  .skills b{color:#14356a}
+</style></head><body>
+<header><div class="hdr"><div class="hdr__text">
+<h1>林嘉禾</h1>
+<p class="tagline">视觉算法工程师 · 工业表面缺陷检测 · 成像—模型—产线部署全链路</p>
+<p class="contact">上海 · 29 岁 · 男 · lin.jiahe@example.com</p>
+</div><div class="hdr__side">
+<figure class="hdr__qr"><img src="assets/img/qr-site.png" alt="扫码查看在线简历"><figcaption>在线简历</figcaption></figure>
+<img class="hdr__photo" src="assets/img/avatar.jpg" alt="林嘉禾">
+</div></div></header>
+
+<h2>求职意向</h2>
+<div class="item" style="margin-bottom:2pt"><p class="meta" style="margin:0">视觉算法工程师 / 工业检测方向 · 上海 · 一个月内到岗 · 期望做缺陷检测、异常检测与产线部署相关的落地工作。</p></div>
+
+<h2>教育背景</h2><div class="item"><div class="row"><div><span class="org">上海交通大学</span><span class="role">控制科学与工程 · 硕士</span></div><span class="date">2020.09 – 2023.03</span></div><p class="meta">研究方向：工业图像中的微弱缺陷检测与少样本学习。 成果：国家奖学金 1 次；EI 会议论文 1 篇；参与国家自然科学基金面上项目 1 项。</p></div><div class="item"><div class="row"><div><span class="org">大连理工大学</span><span class="role">机械工程 · 本科</span></div><span class="date">2016.09 – 2020.06</span></div><p class="meta">主修机器视觉、机械设计、控制工程基础；毕业设计为基于结构光的表面形貌测量。</p></div>
+
+<h2>核心技能</h2>
+<ul class="skills"><li><b>成像与预处理：</b>明场/暗场/同轴照明方案选型，线扫与面阵相机标定，亚像素边缘提取，纹理抑制与对比度增强。</li><li><b>模型与训练：</b>异常检测（PatchCore 类）、少样本分类、语义分割；类别不平衡与长尾处理；合成缺陷数据增强。</li><li><b>工程与部署：</b>PyTorch → ONNX → TensorRT 量化链路，Jetson 边缘端部署，C++ 推理封装，多相机同步与产线节拍对齐。</li><li><b>科研与文档：</b>专利撰写（2 项，1 项授权）、技术方案与验收文档，能把指标边界写清楚。</li></ul>
+
+<h2>工作经历</h2><div class="item"><div class="row"><div><span class="org">恒远新能源科技</span><span class="role">高级视觉算法工程师</span></div><span class="date">2025.04 – 至今</span></div><ul><li>负责极片涂布与焊缝两段在线检测，缺陷最小可检尺寸 <strong>0.15 mm</strong>，漏检率 <strong>0.3%</strong>，适配 <strong>60 m/min</strong> 产线节拍。</li><li>主导 4K 线扫成像方案选型与打光调试，把缺陷与背景的对比度从 4 个灰度级提到 <strong>21 个灰度级</strong>，模型输入的信噪比明显改善。</li><li>搭建主动学习闭环：产线回流可疑样本自动进标注池，模型按月迭代，标注量从每轮 3000 张降到 <strong>600 张</strong>。</li></ul></div><div class="item"><div class="row"><div><span class="org">维芯半导体设备</span><span class="role">视觉算法工程师</span></div><span class="date">2023.03 – 2025.03</span></div><ul><li>交付晶圆表面缺陷在线检测系统，覆盖 <strong>8 类</strong>缺陷，检测准确率 <strong>98.6%</strong>，过杀率从 <strong>3.1% 降到 0.8%</strong>。</li><li>模型经 TensorRT 量化后单张推理 <strong>18 ms</strong>，在 Jetson AGX Orin 上稳定运行，替代原来的人工复检工位。</li><li>设计小样本冷启动方案，新料号只需 <strong>200 张</strong>标注即可上线，客户换线周期从两周压到 <strong>3 天</strong>。</li></ul></div>
+
+<h2>项目经历</h2><div class="item"><div class="row"><div><span class="org">晶圆表面缺陷在线检测</span><span class="role"></span></div><span class="date">2023 – 2025</span></div><ul><li>晶圆表面的划伤、颗粒、残胶在人眼看来差别很小，传统阈值方法在新批次上频繁误报，产线每天要人工复检两千片。做法是把检测拆成「候选区域召回 + 精细分类」两级，召回用无监督异常检测保证不漏，分类用少样本微调压过杀，最后按产线节拍量化部署。</li></ul></div><div class="item"><div class="row"><div><span class="org">电池极片涂布缺陷检测</span><span class="role"></span></div><span class="date">2025 – 至今</span></div><ul><li>4K 线扫下 0.15 mm 的暗斑只占十来个像素，且与涂布纹理高度重叠。改用多尺度条带切分 + 纹理抑制预处理，漏检率做到 0.3%，满足 60 m/min 节拍。</li></ul></div>
+
+<h2>开源作品</h2><div class="item"><div class="row"><div><span class="org">defect-eval：缺陷检测的统一评测口径</span><span class="role">工具包 · MIT</span></div></div><ul><li>解决工业检测里「每个项目一套指标、结果没法横向比」的问题。支持按缺陷尺寸分桶统计检出率、过杀率与漏检分布，输出一张能直接进评审的报表。</li></ul></div>
+
+<h2>荣誉与成果</h2>
+<ul><li>发明专利 2 项（1 项授权、1 项实审）· 第一发明人（2024 – 2025）</li><li>EI 会议论文 1 篇 · 微弱缺陷分割（2023）</li><li>研究生国家奖学金（2022）</li></ul>
+</body></html>

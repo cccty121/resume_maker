@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lin Jiahe · Machine Vision Engineer | Industrial Defect Inspection</title>
+<meta name="description" content="Lin Jiahe, MSc in Control Science and Engineering at Shanghai Jiao Tong University. Industrial machine vision engineer working on surface defect inspection, from imaging and small-sample models to inline deployment.">
+<meta name="author" content="Lin Jiahe">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/avatar-32.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#top">Lin Jiahe</a>
+    <div class="nav__links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero__inner">
+      <div>
+        <p class="hero__eyebrow">Machine Vision · Surface Defect Inspection · Inline Deployment</p>
+        <h1 class="hero__name">Lin Jiahe</h1>
+        <p class="hero__role">
+          Three years in industrial surface defect inspection, from illumination design to production line rollout. I break "we cannot detect it" into three separate problems: imaging, labelling and modelling, then close each one until the whole chain runs inside the line cycle time.
+        </p>
+        <ul class="hero__meta">
+          <li>Shanghai</li>
+          <li>Shanghai Jiao Tong University · MSc</li>
+          <li>29 · Male</li>
+        </ul>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="../assets/resume.pdf" target="_blank" rel="noopener">Download PDF</a>
+          <a class="btn btn--ghost" href="mailto:lin.jiahe@example.com">lin.jiahe@example.com</a>
+        </div>
+      </div>
+      <div class="hero__avatar">
+        <img src="../assets/img/avatar.jpg" alt="Lin Jiahe" width="520" height="689">
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="about">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <span class="section__kicker">About</span>
+        <h2 class="section__title">About me</h2>
+      </div>
+      <div class="about">
+        <div class="about__text reveal">
+          <p>The hard part of industrial inspection is rarely the model. Defect samples are scarce, classes are long-tailed, and the contrast between a defect and normal texture can be a few grey levels. Every time the incoming batch changes, tuned thresholds stop working. I have hit this on both wafer and battery electrode lines.</p>
+          <p>My approach is to split the problem: make imaging lift the defect out of the texture first, use small-sample strategies to work around scarce labels second, then quantise and deploy to meet line cycle time last. If any of the three fails the metrics will not move, so I do not optimise a single number in isolation.</p>
+        </div>
+        <aside class="facts reveal">
+          <dl>
+            <div class="facts__row"><dt>Focus</dt><dd>Industrial surface defect inspection</dd></div>
+            <div class="facts__row"><dt>Current</dt><dd>Hengyuan Energy · Senior Vision Engineer</dd></div>
+            <div class="facts__row"><dt>Degree</dt><dd>MSc, class of 2023</dd></div>
+            <div class="facts__row"><dt>Base</dt><dd>Shanghai</dd></div>
+            <div class="facts__row"><dt>Research</dt><dd>2 patents · 1 paper</dd></div>
+            <div class="facts__row"><dt>Languages</dt><dd>Chinese / English</dd></div>
+          </dl>
+        </aside>
+      </div>
+      <div class="stats reveal">
+        <div class="stat"><span class="stat__num">98.6%</span><span class="stat__label">Wafer defect accuracy</span></div>
+        <div class="stat"><span class="stat__num">0.8%</span><span class="stat__label">False-call rate, from 3.1%</span></div>
+        <div class="stat"><span class="stat__num">18 ms</span><span class="stat__label">Inference per image on Orin</span></div>
+        <div class="stat"><span class="stat__num">2</span><span class="stat__label">Production lines shipped</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <span class="section__kicker">Experience</span>
+        <h2 class="section__title">Experience</h2>
+        <p class="section__desc">Two production lines, the full chain from illumination to deployment.</p>
+      </div>
+      <ol class="timeline reveal">
+        <li class="tl-item">
+          <div class="tl-head">
+            <div><h3 class="tl-title">Senior Machine Vision Engineer</h3><div class="tl-org">Hengyuan Energy Technology (battery manufacturing)</div></div>
+            <span class="tl-date">2025.04 – Present</span>
+          </div>
+          <div class="tl-body">
+            <ul>
+              <li>Own inline inspection for electrode coating and welding: smallest detectable defect <strong>0.15 mm</strong>, miss rate <strong>0.3%</strong>, aligned to a <strong>60 m/min</strong> line speed.</li>
+              <li>Led 4K line-scan camera and illumination selection, raising defect-to-background contrast from <strong>4 to 21 grey levels</strong>.</li>
+              <li>Built an active-learning loop: suspicious frames flow back into a labelling pool, cutting labelling from <strong>3,000 to 600</strong> images per iteration.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-head">
+            <div><h3 class="tl-title">Machine Vision Engineer</h3><div class="tl-org">Weixin Semiconductor Equipment (wafer inspection)</div></div>
+            <span class="tl-date">2023.03 – 2025.03</span>
+          </div>
+          <div class="tl-body">
+            <ul>
+              <li>Shipped an inline wafer surface defect system covering <strong>8 defect classes</strong> at <strong>98.6%</strong> accuracy, cutting false calls from <strong>3.1% to 0.8%</strong>.</li>
+              <li>Quantised with TensorRT to <strong>18 ms</strong> per image on Jetson AGX Orin, replacing a manual re-inspection station.</li>
+              <li>Designed a small-sample cold start: <strong>200 labels</strong> to bring up a new part number, shortening line changeover from two weeks to <strong>3 days</strong>.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="projects">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <span class="section__kicker">Projects</span>
+        <h2 class="section__title">Selected projects</h2>
+      </div>
+      <div class="projects">
+        <article class="card card--wide reveal">
+          <div class="card__top"><span class="tag">Industrial inspection · Shipped</span><span class="card__date">2023 – 2025</span></div>
+          <h3 class="card__title">Inline wafer defect inspection: pushing false calls below 1%</h3>
+          <p class="card__desc">Scratches, particles and residue are barely distinguishable by eye, and threshold methods fired constantly on new batches, sending 2,000 wafers a day to manual review. I split detection into candidate recall and fine classification: unsupervised anomaly detection for recall so nothing is missed, few-shot fine-tuning to suppress false calls, then quantised deployment inside the line cycle.</p>
+          <div class="card__stack"><span class="chip">PyTorch</span><span class="chip">Anomaly detection</span><span class="chip">TensorRT</span><span class="chip">Orin</span></div>
+        </article>
+        <article class="card reveal">
+          <div class="card__top"><span class="tag">Industrial inspection</span><span class="card__date">2025 – Present</span></div>
+          <h3 class="card__title">Battery electrode coating defect detection</h3>
+          <p class="card__desc">At 4K line-scan a 0.15 mm dark spot covers about ten pixels and overlaps the coating texture. Multi-scale strip splitting plus texture suppression brought the miss rate to 0.3% at 60 m/min.</p>
+          <div class="card__stack"><span class="chip">Line-scan imaging</span><span class="chip">Multi-scale</span><span class="chip">C++ deployment</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <span class="section__kicker">Education</span>
+        <h2 class="section__title">Education</h2>
+      </div>
+      <ol class="timeline reveal">
+        <li class="tl-item">
+          <div class="tl-head">
+            <div><h3 class="tl-title">Shanghai Jiao Tong University</h3><div class="tl-org">MSc, Control Science and Engineering</div></div>
+            <span class="tl-date">2020.09 – 2023.03</span>
+          </div>
+          <div class="tl-body"><ul><li>Research: faint defect detection and few-shot learning on industrial images.</li><li>National Scholarship; one EI conference paper; one NSFC project.</li></ul></div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-head">
+            <div><h3 class="tl-title">Dalian University of Technology</h3><div class="tl-org">BEng, Mechanical Engineering</div></div>
+            <span class="tl-date">2016.09 – 2020.06</span>
+          </div>
+          <div class="tl-body"><ul><li>Coursework in machine vision, mechanical design and control; thesis on structured-light surface metrology.</li></ul></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="skills">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <span class="section__kicker">Skills</span>
+        <h2 class="section__title">Skills</h2>
+      </div>
+      <div class="about__text reveal">
+        <p><strong>Imaging:</strong> bright-field, dark-field and coaxial illumination; line-scan and area camera calibration; sub-pixel edge extraction; texture suppression.</p>
+        <p><strong>Modelling:</strong> anomaly detection (PatchCore family), few-shot classification, segmentation; class imbalance and long-tail handling; synthetic defect generation.</p>
+        <p><strong>Deployment:</strong> PyTorch → ONNX → TensorRT quantisation, Jetson edge deployment, C++ inference wrapping, multi-camera sync and cycle-time alignment.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <span class="section__kicker">Contact</span>
+        <h2 class="section__title">Contact</h2>
+      </div>
+      <div class="contact-grid reveal">
+        <div class="contact-card"><a href="mailto:lin.jiahe@example.com">lin.jiahe@example.com</a></div>
+        <div class="contact-card">Shanghai · available within one month</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">© 2026 Lin Jiahe · <a href="../">中文</a></div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

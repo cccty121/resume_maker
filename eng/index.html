@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>林嘉禾 · 视觉算法工程师</title>
+<meta name="description" content="工业视觉算法工程师，做表面缺陷检测的成像、模型与产线部署，做过晶圆与电池极片两条产线。">
+<meta name="author" content="林嘉禾">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="林嘉禾 · 视觉算法工程师">
+<meta property="og:type" content="profile">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/avatar-32.png">
+<link rel="apple-touch-icon" href="assets/img/avatar-180.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav class="nav"><div class="nav__inner"><a class="nav__brand" href="#top">林嘉禾</a>
+<div class="nav__links">
+<a href="#about">关于</a><a href="#experience">经历</a><a href="#projects">项目</a>
+<a href="#education">教育</a><a href="#skills">技能</a><a href="#works">作品</a><a href="#contact">联系</a>
+</div></div></nav>
+<main id="top">
+<section class="hero"><div class="wrap hero__inner"><div>
+<p class="hero__eyebrow">视觉算法 · 表面缺陷检测 · 产线部署</p>
+<h1 class="hero__name">林嘉禾<small>Lin Jiahe</small></h1>
+<p class="hero__role">做工业表面缺陷检测三年，从打光方案一直做到产线落地。擅长把「检测不出来」拆成成像、标注、模型三段分别收敛，最终交付一条能在产线节拍内跑完的链路。</p>
+<ul class="hero__meta"><li>上海</li><li>上海交通大学 · 硕士</li><li>29 岁 · 男</li></ul>
+<div class="hero__cta"><a class="btn btn--primary" href="assets/resume.pdf" target="_blank" rel="noopener">下载 PDF 简历</a>
+<a class="btn btn--ghost" href="mailto:lin.jiahe@example.com">lin.jiahe@example.com</a></div>
+</div><div class="hero__avatar"><img src="assets/img/avatar.jpg" alt="林嘉禾" width="520" height="689"></div>
+</div></section>
+
+<section class="section section--alt" id="about"><div class="wrap">
+<div class="section__head reveal"><span class="section__kicker">About</span><h2 class="section__title">关于我</h2></div>
+<div class="about"><div class="about__text reveal"><p>工业缺陷检测的难点很少在模型上。缺陷样本少、类别分布长尾、缺陷与正常纹理的对比度只有几个灰度级，换一批来料，之前调好的阈值全部失效。我在晶圆和电池极片两条产线上都遇到过这个问题。</p><p>我的做法是把整件事拆成三段：先用成像把缺陷从纹理里「抬出来」，再用小样本策略解决标注不足，最后按产线节拍做量化和部署。三段里任何一段不达标，指标都上不去，所以我不单独追求某个数字好看。</p></div>
+<aside class="facts reveal"><dl><div class="facts__row"><dt>研究方向</dt><dd>工业表面缺陷检测</dd></div><div class="facts__row"><dt>现任</dt><dd>恒远新能源 · 高级视觉算法工程师</dd></div><div class="facts__row"><dt>学历</dt><dd>硕士 · 2023 届</dd></div><div class="facts__row"><dt>常驻城市</dt><dd>上海</dd></div><div class="facts__row"><dt>科研成果</dt><dd>专利 2 项 · 论文 1 篇</dd></div><div class="facts__row"><dt>语言</dt><dd>中文 / 英文（读写）</dd></div></dl></aside></div>
+<div class="stats reveal"><div class="stat"><span class="stat__num">98.6%</span><span class="stat__label">晶圆缺陷检测准确率</span></div><div class="stat"><span class="stat__num">0.8%</span><span class="stat__label">过杀率，原 3.1%</span></div><div class="stat"><span class="stat__num">18 ms</span><span class="stat__label">单张推理，Orin 边缘端</span></div><div class="stat"><span class="stat__num">2 条</span><span class="stat__label">已上线产线</span></div></div>
+</div></section>
+
+<section class="section" id="experience"><div class="wrap">
+<div class="section__head reveal"><span class="section__kicker">Experience</span><h2 class="section__title">工作经历</h2></div>
+<ol class="timeline reveal"><li class="tl-item"><div class="tl-head"><div><h3 class="tl-title">高级视觉算法工程师</h3><div class="tl-org">恒远新能源科技（电池制造）</div></div><span class="tl-date">2025.04 – 至今</span></div><div class="tl-body"><ul><li>负责极片涂布与焊缝两段在线检测，缺陷最小可检尺寸 <strong>0.15 mm</strong>，漏检率 <strong>0.3%</strong>，适配 <strong>60 m/min</strong> 产线节拍。</li><li>主导 4K 线扫成像方案选型与打光调试，把缺陷与背景的对比度从 4 个灰度级提到 <strong>21 个灰度级</strong>，模型输入的信噪比明显改善。</li><li>搭建主动学习闭环：产线回流可疑样本自动进标注池，模型按月迭代，标注量从每轮 3000 张降到 <strong>600 张</strong>。</li></ul></div></li><li class="tl-item"><div class="tl-head"><div><h3 class="tl-title">视觉算法工程师</h3><div class="tl-org">维芯半导体设备（晶圆检测设备）</div></div><span class="tl-date">2023.03 – 2025.03</span></div><div class="tl-body"><ul><li>交付晶圆表面缺陷在线检测系统，覆盖 <strong>8 类</strong>缺陷，检测准确率 <strong>98.6%</strong>，过杀率从 <strong>3.1% 降到 0.8%</strong>。</li><li>模型经 TensorRT 量化后单张推理 <strong>18 ms</strong>，在 Jetson AGX Orin 上稳定运行，替代原来的人工复检工位。</li><li>设计小样本冷启动方案，新料号只需 <strong>200 张</strong>标注即可上线，客户换线周期从两周压到 <strong>3 天</strong>。</li></ul></div><div class="tl-sub"><div class="tl-sub__head"><span class="tl-sub__role">算法实习生（同期）</span><span class="tl-date">2022.07 – 2023.02</span></div><div class="tl-body"><ul><li>完成缺陷分类基线 pipeline，交付内部评测脚本，成为后续所有模型的统一评测口径。</li></ul></div></div></li></ol>
+</div></section>
+
+<section class="section section--alt" id="projects"><div class="wrap">
+<div class="section__head reveal"><span class="section__kicker">Projects</span><h2 class="section__title">项目经历</h2></div>
+<div class="projects"><article class="card card--wide reveal"><div class="card__top"><span class="tag">工业检测 · 已上线</span><span class="card__date">2023 – 2025</span></div><h3 class="card__title">晶圆表面缺陷在线检测：把过杀率压到 1% 以下</h3><p class="card__desc">晶圆表面的划伤、颗粒、残胶在人眼看来差别很小，传统阈值方法在新批次上频繁误报，产线每天要人工复检两千片。做法是把检测拆成「候选区域召回 + 精细分类」两级，召回用无监督异常检测保证不漏，分类用少样本微调压过杀，最后按产线节拍量化部署。</p><div class="card__stack"><span class="chip">PyTorch</span><span class="chip">异常检测</span><span class="chip">TensorRT</span><span class="chip">Orin</span></div><div class="card__links"><a href="#honors">相关专利</a></div></article><article class="card reveal"><div class="card__top"><span class="tag">工业检测</span><span class="card__date">2025 – 至今</span></div><h3 class="card__title">电池极片涂布缺陷检测</h3><p class="card__desc">4K 线扫下 0.15 mm 的暗斑只占十来个像素，且与涂布纹理高度重叠。改用多尺度条带切分 + 纹理抑制预处理，漏检率做到 0.3%，满足 60 m/min 节拍。</p><div class="card__stack"><span class="chip">线扫成像</span><span class="chip">多尺度</span><span class="chip">C++ 部署</span></div></article><article class="card reveal"><div class="card__top"><span class="tag">方法 · 内部工具</span><span class="card__date">2024</span></div><h3 class="card__title">小样本冷启动：200 张标注上线一个新料号</h3><p class="card__desc">新料号缺陷样本往往只有几十张。用合成缺陷 + 主动学习采样，把上线所需标注量压到 200 张，换线周期从两周降到 3 天，标注成本下降约 70%。</p><div class="card__stack"><span class="chip">主动学习</span><span class="chip">缺陷合成</span><span class="chip">少样本</span></div></article></div>
+</div></section>
+
+<section class="section" id="education"><div class="wrap">
+<div class="section__head reveal"><span class="section__kicker">Education</span><h2 class="section__title">教育背景</h2></div>
+<ol class="timeline reveal"><li class="tl-item"><div class="tl-head"><div><h3 class="tl-title">上海交通大学</h3><div class="tl-org">控制科学与工程 · 硕士（电子信息与电气工程学院）</div></div><span class="tl-date">2020.09 – 2023.03</span></div><div class="tl-body"><ul><li>研究方向：工业图像中的微弱缺陷检测与少样本学习。</li><li>成果：国家奖学金 1 次；EI 会议论文 1 篇；参与国家自然科学基金面上项目 1 项。</li></ul></div></li><li class="tl-item"><div class="tl-head"><div><h3 class="tl-title">大连理工大学</h3><div class="tl-org">机械工程 · 本科（机械工程学院）</div></div><span class="tl-date">2016.09 – 2020.06</span></div><div class="tl-body"><ul><li>主修机器视觉、机械设计、控制工程基础；毕业设计为基于结构光的表面形貌测量。</li></ul></div></li></ol>
+</div></section>
+
+<section class="section section--alt" id="skills"><div class="wrap">
+<div class="section__head reveal"><span class="section__kicker">Skills</span><h2 class="section__title">专业能力</h2></div>
+<div class="about__text reveal"><p><strong>成像与预处理：</strong>明场/暗场/同轴照明方案选型，线扫与面阵相机标定，亚像素边缘提取，纹理抑制与对比度增强。</p><p><strong>模型与训练：</strong>异常检测（PatchCore 类）、少样本分类、语义分割；类别不平衡与长尾处理；合成缺陷数据增强。</p><p><strong>工程与部署：</strong>PyTorch → ONNX → TensorRT 量化链路，Jetson 边缘端部署，C++ 推理封装，多相机同步与产线节拍对齐。</p><p><strong>科研与文档：</strong>专利撰写（2 项，1 项授权）、技术方案与验收文档，能把指标边界写清楚。</p></div>
+</div></section>
+
+<section class="section" id="works"><div class="wrap">
+<div class="section__head reveal"><span class="section__kicker">Works</span><h2 class="section__title">开源作品</h2>
+<p class="section__desc">把内部反复重写的评测脚本整理成了工具。</p></div>
+<div class="projects"><article class="card reveal"><div class="card__top"><span class="tag">工具包 · MIT</span><span class="card__date">2025</span></div><h3 class="card__title">defect-eval：缺陷检测的统一评测口径</h3><p class="card__desc">解决工业检测里「每个项目一套指标、结果没法横向比」的问题。支持按缺陷尺寸分桶统计检出率、过杀率与漏检分布，输出一张能直接进评审的报表。</p><div class="card__stack"><span class="chip">评测</span><span class="chip">可视化</span></div></article></div>
+<div class="section__head reveal"><span class="section__kicker">Honors</span><h2 class="section__title">荣誉与成果</h2></div>
+<ol class="timeline reveal"><li class="tl-item"><div class="tl-head"><div><h3 class="tl-title">发明专利 2 项（1 项授权、1 项实审）· 第一发明人</h3></div><span class="tl-date">2024 – 2025</span></div></li><li class="tl-item"><div class="tl-head"><div><h3 class="tl-title">EI 会议论文 1 篇 · 微弱缺陷分割</h3></div><span class="tl-date">2023</span></div></li><li class="tl-item"><div class="tl-head"><div><h3 class="tl-title">研究生国家奖学金</h3></div><span class="tl-date">2022</span></div></li></ol>
+</div></section>
+
+<section class="section section--alt" id="contact"><div class="wrap">
+<div class="section__head reveal"><span class="section__kicker">Contact</span><h2 class="section__title">联系</h2></div>
+<div class="contact-grid reveal"><div class="contact-card"><a href="mailto:lin.jiahe@example.com">lin.jiahe@example.com</a></div><div class="contact-card">上海</div></div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap">© 2026 林嘉禾 · 样例版式</div></footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
