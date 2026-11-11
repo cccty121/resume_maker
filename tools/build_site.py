@@ -277,7 +277,7 @@ def build_gallery(ps):
 <div class="section__head reveal"><span class="section__kicker">How</span><h2 class="section__title">同一套流程</h2></div>
 <div class="about__text reveal">
 <p>人物与经历均为虚构，用于展示版式与写法，不代表真实求职者。</p>
-<p>四份样例的差别不在模板，在取舍：工科留指标，理科留方法与口径，文科留作品与数据，社科留研究过程和结论。同一个结构，装的东西不一样。</p>
+<p>四份样例用同一个版式，区别在留下什么：工科留指标，理科留方法和口径，文科留作品和数据，社科留研究过程和结论。</p>
 </div></div></section>
 </main>
 <footer class="footer"><div class="wrap">© 2026 简历样例 · 仅供展示</div></footer>

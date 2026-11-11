@@ -33,7 +33,7 @@
 </style></head><body>
 <header><div class="hdr"><div class="hdr__text">
 <h1>林嘉禾</h1>
-<p class="tagline">视觉算法工程师 · 工业表面缺陷检测 · 成像—模型—产线部署全链路</p>
+<p class="tagline">视觉算法工程师 · 工业表面缺陷检测 · 从成像到产线部署</p>
 <p class="contact">上海 · 29 岁 · 男 · lin.jiahe@example.com</p>
 </div><div class="hdr__side">
 <figure class="hdr__qr"><img src="assets/img/qr-site.png" alt="扫码查看在线简历"><figcaption>在线简历</figcaption></figure>
@@ -48,7 +48,7 @@
 <h2>核心技能</h2>
 <ul class="skills"><li><b>成像与预处理：</b>明场/暗场/同轴照明方案选型，线扫与面阵相机标定，亚像素边缘提取，纹理抑制与对比度增强。</li><li><b>模型与训练：</b>异常检测（PatchCore 类）、少样本分类、语义分割；类别不平衡与长尾处理；合成缺陷数据增强。</li><li><b>工程与部署：</b>PyTorch → ONNX → TensorRT 量化链路，Jetson 边缘端部署，C++ 推理封装，多相机同步与产线节拍对齐。</li><li><b>科研与文档：</b>专利撰写（2 项，1 项授权）、技术方案与验收文档，能把指标边界写清楚。</li></ul>
 
-<h2>工作经历</h2><div class="item"><div class="row"><div><span class="org">恒远新能源科技</span><span class="role">高级视觉算法工程师</span></div><span class="date">2025.04 – 至今</span></div><ul><li>负责极片涂布与焊缝两段在线检测，缺陷最小可检尺寸 <strong>0.15 mm</strong>，漏检率 <strong>0.3%</strong>，适配 <strong>60 m/min</strong> 产线节拍。</li><li>主导 4K 线扫成像方案选型与打光调试，把缺陷与背景的对比度从 4 个灰度级提到 <strong>21 个灰度级</strong>，模型输入的信噪比明显改善。</li><li>搭建主动学习闭环：产线回流可疑样本自动进标注池，模型按月迭代，标注量从每轮 3000 张降到 <strong>600 张</strong>。</li></ul></div><div class="item"><div class="row"><div><span class="org">维芯半导体设备</span><span class="role">视觉算法工程师</span></div><span class="date">2023.03 – 2025.03</span></div><ul><li>交付晶圆表面缺陷在线检测系统，覆盖 <strong>8 类</strong>缺陷，检测准确率 <strong>98.6%</strong>，过杀率从 <strong>3.1% 降到 0.8%</strong>。</li><li>模型经 TensorRT 量化后单张推理 <strong>18 ms</strong>，在 Jetson AGX Orin 上稳定运行，替代原来的人工复检工位。</li><li>设计小样本冷启动方案，新料号只需 <strong>200 张</strong>标注即可上线，客户换线周期从两周压到 <strong>3 天</strong>。</li></ul></div>
+<h2>工作经历</h2><div class="item"><div class="row"><div><span class="org">恒远新能源科技</span><span class="role">高级视觉算法工程师</span></div><span class="date">2025.04 – 至今</span></div><ul><li>负责极片涂布与焊缝两段在线检测，缺陷最小可检尺寸 <strong>0.15 mm</strong>，漏检率 <strong>0.3%</strong>，适配 <strong>60 m/min</strong> 产线节拍。</li><li>主导 4K 线扫成像方案选型与打光调试，把缺陷与背景的对比度从 4 个灰度级提到 <strong>21 个灰度级</strong>，模型输入的信噪比明显改善。</li><li>把产线回流的可疑样本自动接进标注池，模型按月迭代，每轮标注量从 3000 张降到 <strong>600 张</strong>。</li></ul></div><div class="item"><div class="row"><div><span class="org">维芯半导体设备</span><span class="role">视觉算法工程师</span></div><span class="date">2023.03 – 2025.03</span></div><ul><li>交付晶圆表面缺陷在线检测系统，覆盖 <strong>8 类</strong>缺陷，检测准确率 <strong>98.6%</strong>，过杀率从 <strong>3.1% 降到 0.8%</strong>。</li><li>模型经 TensorRT 量化后单张推理 <strong>18 ms</strong>，在 Jetson AGX Orin 上稳定运行，替代原来的人工复检工位。</li><li>设计小样本冷启动方案，新料号只需 <strong>200 张</strong>标注即可上线，客户换线周期从两周压到 <strong>3 天</strong>。</li></ul></div>
 
 <h2>项目经历</h2><div class="item"><div class="row"><div><span class="org">晶圆表面缺陷在线检测</span><span class="role"></span></div><span class="date">2023 – 2025</span></div><ul><li>晶圆表面的划伤、颗粒、残胶在人眼看来差别很小，传统阈值方法在新批次上频繁误报，产线每天要人工复检两千片。做法是把检测拆成「候选区域召回 + 精细分类」两级，召回用无监督异常检测保证不漏，分类用少样本微调压过杀，最后按产线节拍量化部署。</li></ul></div><div class="item"><div class="row"><div><span class="org">电池极片涂布缺陷检测</span><span class="role"></span></div><span class="date">2025 – 至今</span></div><ul><li>4K 线扫下 0.15 mm 的暗斑只占十来个像素，且与涂布纹理高度重叠。改用多尺度条带切分 + 纹理抑制预处理，漏检率做到 0.3%，满足 60 m/min 节拍。</li></ul></div>
 

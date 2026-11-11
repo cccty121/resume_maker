@@ -71,7 +71,7 @@
   "sci": {
     "title": "Data Analyst",
     "eyebrow": "Applied Statistics · Experiment Design · Metrics",
-    "role": "Three years in analytics, mostly on one question: how to prove a strategy caused the lift instead of claiming credit for natural growth. I work with experiment design and causal inference, and land everything on metric definitions, traffic validation and incremental evaluation.",
+    "role": "Three years in analytics, most of it spent on one question: did this number go up because of the strategy, or because the market moved. The tools are experiment design and causal inference; in practice that means metric definitions, traffic validation and incremental evaluation.",
     "summary_facts": [
       [
         "Focus",
@@ -140,7 +140,7 @@
   "arts": {
     "title": "Content Operations",
     "eyebrow": "Content Operations · Brand Copy · Building Accounts from Zero",
-    "role": "Three years in content operations, from editorial calendars to post-campaign reviews. I turn products nobody cares about into stories people finish, and I admit when a topic was the problem rather than the headline.",
+    "role": "Three years in content operations, from editorial calendars to post-campaign reviews. I try to turn products nobody cares about into stories people finish, and when a topic fails I say so in the review instead of blaming the headline.",
     "summary_facts": [
       [
         "Focus",
