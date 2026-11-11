@@ -8,6 +8,8 @@
 - 文科：https://cccty121.github.io/resume_maker/arts/ （温言 · 内容运营）
 - 社科：https://cccty121.github.io/resume_maker/soc/ （许问 · 用户研究）
 
+每个 slug 下还有 `en/` 英文页，和中文页同源同事实；`resume-print.html` 是对应的一页 A4 打印页，`assets/resume.pdf` 是它出好的 PDF。
+
 人物与经历全部虚构，头像是一张卡通猪。两样都是**样例标记**：防止有人把样例当真实简历投出去，也让作品一眼看出是演示件。
 
 ## 目录
@@ -80,8 +82,15 @@ python D:\work\resume_create\tools\verify_site.py --base https://cccty121.github
 - 每个页面头部带 `noindex, nofollow`，别删
 - 客户单用带随机串的仓库名，不要 `resume_张三`
 
-## 已验收
+## 已验收（2026-11-11 线上实测）
 
-- 四个 PDF 均为 1 页（构建时校验通过）
-- 四个二维码解码回验，各自指向自己的 slug
-- 四份样例的网页与打印页事实一致（公司、时间、指标逐条对过）
+`verify_site.py` 四个 slug 全部 PASS：
+
+| slug | 首页 | en/ | 打印页 | 本地资源 | 二维码 | PDF |
+|---|---|---|---|---|---|---|
+| eng | 200 | 200 | 200 | 9 refs / 0 broken | 解码指向自己 | 1 页 |
+| sci | 200 | 200 | 200 | 9 refs / 0 broken | 解码指向自己 | 1 页 |
+| arts | 200 | 200 | 200 | 9 refs / 0 broken | 解码指向自己 | 1 页 |
+| soc | 200 | 200 | 200 | 9 refs / 0 broken | 解码指向自己 | 1 页 |
+
+推完到 Pages 生效约 45 秒，比记忆里「大仓库要 8-10 分钟」快得多，因为这次只有 60 来个文件。
